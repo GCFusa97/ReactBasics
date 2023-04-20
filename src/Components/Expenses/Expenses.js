@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Card from "../UI/Card";
 import ExpensesFilter from "./ExpensesFilter";
 import ExpensesList from "./ExpensesList";
+import ExpenseChart from "./ExpensesChart";
 
 import './Expenses.css';
 
@@ -25,6 +26,7 @@ function Expenses(props) {
         <Card className="expenses">
             <ExpensesFilter selected={dropDSelection} 
                             onDropDownChange={dropDownChangeHandler} />
+            <ExpenseChart expenses = {filteredExpenses}/>
             <ExpensesList items = {filteredExpenses}/>
         </Card>
 
