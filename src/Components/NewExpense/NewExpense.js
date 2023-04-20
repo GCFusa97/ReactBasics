@@ -8,8 +8,8 @@ const NewExpense = (props) => {
 
         const expenseData= {
 
-            ...enteredExpenseData,
-            id: Math.random().toString()
+            id: Math.random().toString(),
+            ...enteredExpenseData
 
         }
 

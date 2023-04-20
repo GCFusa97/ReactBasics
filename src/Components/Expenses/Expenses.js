@@ -13,7 +13,7 @@ function Expenses(props) {
 
     const dropDownChangeHandler = (selection) => {
 
-        setSelection(prevSelection => selection);
+        setSelection(selection);
 
     }
 

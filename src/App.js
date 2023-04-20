@@ -27,7 +27,13 @@ const DUMMY_DATA = [
     id: 'e4',
     title: 'TV cable',
     amount: 100,
-    date: new Date(2020, 12, 1)
+    date: new Date(2020, 11, 1)
+  },
+  {
+    id: 'e5',
+    title: 'Books',
+    amount: 100,
+    date: new Date(2019, 0, 1)
   }
 ]
 
@@ -38,11 +44,16 @@ function App() {
 
   const addExpenseHandler = (expense) => {
 
+    expense.date = new Date(expense.date);
+
     setExpenses((prevExpenses) => {
-      return [expense, ...expenses];
+      return [...prevExpenses, expense];
     });
 
-  }
+    console.log(expenses[0]);
+    console.log(expense);
+
+  };
 
 
 
