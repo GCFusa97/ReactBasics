@@ -50,9 +50,6 @@ function App() {
       return [...prevExpenses, expense];
     });
 
-    console.log(expenses[0]);
-    console.log(expense);
-
   };
 
 

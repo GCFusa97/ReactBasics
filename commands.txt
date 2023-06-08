@@ -1,0 +1,57 @@
+
+# Build docker image
+docker build -t <image-name>:<tag> .
+
+# Used to deploy the application
+kubectl apply -f deployment.yaml
+
+# Used to deploy a service
+kubectl apply -f service.yaml
+
+# Used to update the image for my deployment
+kubectl set image deployment/my-app my-app-container=myregistry/my-app:v2
+
+
+# Scale the number of replicas
+kubectl scale deployment <deployment-name> --replicas=<desired-replica-count>
+
+# Get deployments for a specific namespace
+kubectl get deployments -n react-application 
+
+
+# Used to delete a deployment from a specific namespace
+kubectl delete deployment my-app -n react-application
+
+# Delete all pods from a specific namespace
+kubectl delete pods --all --namespace react-application
+
+# To create a namespace
+kubectl create namespace your-namespace
+
+# Change to another namespace
+kubectl config set-context --current --namespace=your-namespace
+
+# To try this. This will forward the port to my local machine 
+kubectl port-forward <pod-name> <local-port>:<container-port>
+ 
+# Set number of cpus for minikube
+minikube config set cpus 2
+
+# Check for number of cpus, same for memory
+minikube config get cpus
+
+# Set memory for minikube
+minikube config set memory 4096
+
+# Restart minikube
+minikube start
+
+
+# Add metrics server
+minikube addons enable metrics-server
+
+# Verifi that metrics server is running
+minikube addons list
+
+# Set up port-forwarding
+kubectl port-forward deployment/my-app 3000:3000 -n react-application &

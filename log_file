@@ -1,0 +1,98 @@
+
+Log performed at current time: 2023-06-08,10:33:19 
+
+Total number of pods from current namespace: 3
+---------------------------------------------------------------------
+Pod: my-app-5c5d59d847-2spg8
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       
+tcp        0      0 0.0.0.0:3000            0.0.0.0:*               LISTEN      
+
+Pod: my-app-5c5d59d847-kcfkb
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       
+tcp        0      0 0.0.0.0:3000            0.0.0.0:*               LISTEN      
+
+Pod: my-app-5c5d59d847-xqn88
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       
+tcp        0      0 0.0.0.0:3000            0.0.0.0:*               LISTEN      
+
+---------------------------------------------------------------------
+Entering monitoring loop...
+
+Warning: High resource usage detected for pod: my-app-5c5d59d847-2spg8
+Pod: my-app-5c5d59d847-2spg8
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+258Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-kcfkb
+Pod: my-app-5c5d59d847-kcfkb
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+288Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-xqn88
+Pod: my-app-5c5d59d847-xqn88
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+261Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-2spg8
+Pod: my-app-5c5d59d847-2spg8
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+258Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-kcfkb
+Pod: my-app-5c5d59d847-kcfkb
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+288Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-xqn88
+Pod: my-app-5c5d59d847-xqn88
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+261Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-2spg8
+Pod: my-app-5c5d59d847-2spg8
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+258Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-kcfkb
+Pod: my-app-5c5d59d847-kcfkb
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+288Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-xqn88
+Pod: my-app-5c5d59d847-xqn88
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+261Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-2spg8
+Pod: my-app-5c5d59d847-2spg8
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+258Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-kcfkb
+Pod: my-app-5c5d59d847-kcfkb
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+288Mi
+Warning: High resource usage detected for pod: my-app-5c5d59d847-xqn88
+Pod: my-app-5c5d59d847-xqn88
+CPU Usage: CPU(cores)
+1m
+Memory Usage: MEMORY(bytes)
+261Mi
